@@ -8,4 +8,5 @@ add_executable(matmul
     includes/matrix.hpp 
     includes/cache_info.h
 )
+add_definitions(-DNOMINMAX)
 target_include_directories(matmul PRIVATE includes)

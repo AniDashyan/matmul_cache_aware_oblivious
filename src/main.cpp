@@ -6,6 +6,8 @@
 #include "../includes/cache_info.h"
 #include "../includes/kaizen.h"
 
+#define NOMINMAX
+
 int main(int argc, char** argv) {
     zen::cmd_args args(argv, argc);
     int rows = 1000, cols = 2000;
