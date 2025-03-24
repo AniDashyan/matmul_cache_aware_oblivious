@@ -9,4 +9,3 @@ add_executable(matmul
     includes/cache_info.h
 )
 target_include_directories(matmul PRIVATE includes)
-target_compile_options(matmul PRIVATE -O3)
