@@ -64,7 +64,7 @@ int main(int argc, char** argv) {
 
         zen::log(std::format("Matrix Multiplication Performance (size = {}x{}):", size, size));
         zen::log("----------------------------------------");
-        zen::log(std::format("{:<25}Time (s)", "Method"));
+        zen::log(std::format("{:<25}Time", "Method"));
         zen::log("----------------------------------------");
         zen::log(std::format("{:<25}{}", "Naive", time_naive));
         zen::log(std::format("{:<25}{}", "Blocked (blockSize=" + std::to_string(blockSize) + ")", time_blocked));
